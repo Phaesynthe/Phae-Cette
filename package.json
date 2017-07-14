@@ -1,0 +1,26 @@
+{
+  "name": "Phae-Cette",
+  "private": false,
+  "version": "0.1.0",
+  "keywords": [],
+  "author": "Matthew W. Jackson <mwj8410@gmail.com>",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phaesynthe/Phae-Kit.gitt"
+  },
+  "engines": {
+    "node": "8.1.4",
+    "npm": "5.0.3"
+  },
+  "os": [
+    "!win32"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^3.4.2"
+  }
+}

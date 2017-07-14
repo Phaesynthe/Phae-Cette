@@ -1,0 +1,56 @@
+# ##### ##### ##### ##### #
+#  Application Specifics  #
+# ##### ##### ##### ##### #
+
+
+
+# ##### ##### ##### ##### #
+#           Logs          #
+# ##### ##### ##### ##### #
+logs
+*.log
+*.log.*
+npm-debug.log*
+
+
+# ##### ##### ##### ##### #
+#      Runtime Data       #
+# ##### ##### ##### ##### #
+pids
+*.pid
+*.seed
+
+
+# ##### ##### ##### ##### #
+#    Testing and Cache    #
+# ##### ##### ##### ##### #
+.node_repl_history
+.npm
+.nyc_output
+.tmp
+coverage
+lib-cov
+
+
+# ##### ##### ##### ##### #
+#          Build          #
+# ##### ##### ##### ##### #
+build/*
+
+
+# ##### ##### ##### ##### #
+#         Packages        #
+# ##### ##### ##### ##### #
+node_modules
+jspm_packages
+.node_repl_history
+.npm
+
+
+# ##### ##### ##### ##### #
+#           IDEs          #
+# ##### ##### ##### ##### #
+.idea
+.netbeans
+nbproject
+.vscode
