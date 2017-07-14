@@ -7,7 +7,7 @@
   "license": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Phaesynthe/Phae-Kit.gitt"
+    "url": "https://github.com/Phaesynthe/Phae-Kit.git"
   },
   "engines": {
     "node": "8.1.4",
@@ -16,11 +16,18 @@
   "os": [
     "!win32"
   ],
-  "scripts": {},
+  "main" : "./src/cette.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "npm run test:unit & npm run lint",
+    "test:unit": "istanbul cover _mocha test/unit.config.js"
+  },
   "dependencies": {},
   "devDependencies": {
+    "chai": "^4.1.0",
     "eslint": "^4.2.0",
     "eslint-config-google": "^0.9.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.4.2"
   }
 }
