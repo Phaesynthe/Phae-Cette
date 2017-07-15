@@ -19,6 +19,16 @@ const transformedVersion = Cette(template, context);
 ```
 
 ## Syntax ##
-
+### Substitution ###
+```javascript
+let context = {
+  value: 'World',
+  second: {
+    value: 'to this world'
+  }
+}
+```
+`Hello {value}.` will be transformed to `Hello World.`
+`Hello {second.value}.` will be transformed to `Hello to this world.`
 
 ## Requested Syntax ##

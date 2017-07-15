@@ -16,13 +16,14 @@
   "os": [
     "!win32"
   ],
-  "main" : "./src/cette.js",
+  "module": "./src/cette.js",
   "scripts": {
     "lint": "eslint ./src",
     "test": "npm run test:unit & npm run lint",
     "test:unit": "istanbul cover _mocha test/unit.config.js"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "chai": "^4.1.0",
     "eslint": "^4.2.0",

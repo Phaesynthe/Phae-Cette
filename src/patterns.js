@@ -1,3 +1,3 @@
 module.exports = {
-  substitution: /{[a-zA-Z0-1\.]*}/
+  substitution: /{[a-zA-Z0-1.]*}/
 };
