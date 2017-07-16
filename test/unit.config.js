@@ -6,4 +6,4 @@ const Cette = require('../src/cette');
 global.Cette = Cette;
 
 require('./unit/00_main.spec');
-require('./unit/01_simpleExpressions.spec');
+require('./unit/01_substitutions.spec');
