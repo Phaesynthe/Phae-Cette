@@ -31,4 +31,16 @@ let context = {
 `Hello {value}.` will be transformed to `Hello World.`
 `Hello {second.value}.` will be transformed to `Hello to this world.`
 
+## Intended Syntax ##
+##### Not all of this has been developed and some of what has been developed is not yet fully tested #####
+
+* `Hello {value}.` will be transformed to `Hello World.`
+* `Hello {second.value}.` will be transformed to `Hello to this world.`
+* `Hello {( "to this {value}" | {value} )}` is an or operation that will result in one value or the other in the indicated portion of the output text.
+* `Hello {( "to this {value}":99 | {value}:1 )}` indicates a frequency. In this case, 99 to one. (Needs to be rolled into all operations)
+* `Hello little {? char male "mister" | "miss" }` interrogative operation. Assumes that the provided object has an attribute called `facts` and searches those facts for the provided term.
+* `Hello you {( "beauty" => like=true | "evil person" => like=false )}` display effects. 
+
+* `You walk down the lond hallway{( " and notice a bright glint of light":1 => scene.seenObject=true| "":1000 )}.`
+
 ## Requested Syntax ##
